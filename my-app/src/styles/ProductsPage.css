@@ -1,0 +1,40 @@
+.product-detail-container {
+    display: flex;
+    align-items: stretch; 
+    gap: 70px;
+    padding: 50px 150px;
+    margin-top: 30px;
+}
+
+.product-detail-image {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-detail-title {
+    font-size: 40px;
+    color: #1A212F;
+    margin-bottom: 20px;
+}
+
+.product-detail-description {
+    font-size: 17px;
+    color: #1A212F;
+}
+
+.product-detail-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #841508;
+}
+
+
